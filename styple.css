@@ -1,0 +1,111 @@
+/* Color scheme stolen from Sergey Karayev */
+
+a {
+    color: #1772d0;
+    /* color: #07889b; */
+    text-decoration: none;
+}
+
+a.black {
+    color: #000000;
+    /* color: #07889b; */
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    /* color: #e37222; #f09228; */
+    color: rgb(180, 16, 44);
+    text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px
+}
+
+strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    /* color: #e3225c; */
+    color: rgb(180, 16, 44);
+}
+
+subheading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style:italic;
+    /* color: #e3225c; */
+    color: rgb(180, 16, 44);
+}
+
+papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.footer {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0.75;
+    color: #777;
+}
+
+.one {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.two {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+    background-color: #ffffd0;
+}
+
+span.artifact {
+    color:#6cb41b;
+    padding: 1px;
+}
+
+span.underline {
+    border-bottom:1px solid black;
+    padding-bottom:1px;
+}
+
+span.tldr {
+    color: #555555;
+}
+
+em.highlight {
+    color: #e37222;
+}
